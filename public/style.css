@@ -1,0 +1,54 @@
+body {
+  background-color: skyblue;
+}
+
+.hero {
+  width: 960px;
+  margin: 20px auto 0 auto;
+  padding-top: 5%;
+  border: black 2px solid;
+  border-radius: 15px;
+  padding: 10px;
+  background: white;
+}
+
+.container {
+  margin: 20px 150px 0px 250px;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
