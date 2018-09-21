@@ -41,7 +41,9 @@ $(document).on("click", ".article", function() {
       $("#notes").append("<textarea id='bodyinput' name='body'></textarea>");
       // A button to submit a new note, with the id of the article saved to it
       $("#notes").append(
-        "<button data-id='" + data._id + "' id='savenote'>Save Note</button>"
+        "<button data-id='" +
+          data._id +
+          "' id='savenote' class='btn btn-primary'>Save Note</button>"
       );
 
       // If there's a note in the article
