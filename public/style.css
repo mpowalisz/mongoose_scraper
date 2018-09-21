@@ -52,3 +52,7 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+#savenote {
+  padding: 10px;
+}
